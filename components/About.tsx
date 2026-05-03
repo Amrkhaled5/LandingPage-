@@ -94,6 +94,28 @@ export default function About() {
                 </span>
               ))}
             </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href="tel:+201023665527"
+                className="inline-flex items-center gap-2 rounded-full bg-[#1B2A3B] px-5 py-2.5 text-sm font-semibold text-white shadow transition-transform hover:scale-105"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-4 w-4">
+                  <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z" />
+                </svg>
+                اتصل بنا
+              </a>
+              <a
+                href="https://www.facebook.com/salescenter.morshedygroup"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[#1877F2] px-5 py-2.5 text-sm font-semibold text-white shadow transition-transform hover:scale-105"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-4 w-4">
+                  <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.313 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z" />
+                </svg>
+                تابعنا على فيسبوك
+              </a>
+            </div>
           </div>
         </div>
 

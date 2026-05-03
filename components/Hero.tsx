@@ -37,8 +37,8 @@ export default function Hero() {
           شاليهات متشطبة بالكامل مطلة على اللاجون وحمام السباحة
         </p>
         {/* Delivered badge */}
-        <div className="mb-10 inline-flex items-center gap-2 rounded-full bg-green-500/20 border border-green-400/40 px-4 py-2 text-sm font-semibold text-green-300">
-          <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
+        <div className="mb-10 inline-flex items-center gap-2 rounded-full bg-[#C9A84C]/20 border border-[#C9A84C]/50 px-4 py-2 text-sm font-semibold text-[#C9A84C]">
+          <span className="h-2 w-2 rounded-full bg-[#C9A84C] animate-pulse" />
           تسليم فوري — سُلِّم 6 أشهر قبل الموعد المحدد
         </div>
 
