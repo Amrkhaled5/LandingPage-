@@ -8,6 +8,7 @@ import Finishes from "@/components/Finishes";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import CookieBanner from "@/components/CookieBanner";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Footer />
 
       <FloatingButtons />
+      <CookieBanner />
     </>
   );
 }
